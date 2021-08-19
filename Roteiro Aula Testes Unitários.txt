@@ -23,4 +23,7 @@ Roteiro para aula de Testes Unitários
       - necessidade de qualidade nos testes;
       - ganho de produtividade a longo prazo;
       - quais métodos testar;
+      
+- Criar os testes para o método realustarSalario da classe Funcionario.java
+- E o método calcularValorDoAumento? Como testar? Pesquisem
   
