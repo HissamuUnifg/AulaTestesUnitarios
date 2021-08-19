@@ -1,0 +1,26 @@
+Roteiro para aula de Testes Unitários
+ - Clonar o repositório git@github.com:HissamuUnifg/AulaTestesUnitarios.git
+
+ - Abrir o projeto usando a IDE netbeans
+
+ - Caso seja necessário, adicionar a biblioteca JUnit 4 ao class_path do projeto;
+
+ - Nesse ponto o projeto está pronto para ser executado;
+ 
+ - Para o início da aula, apagar as classes de teste dentro do diretório tests na raiz do projeto;
+
+ - Apresentar os recursos do framework JUnit a seguir e criar as classes de teste junto com os alunos:
+    - Demonstrar a ideia básica de um teste automatizado usando a classe main e explicar as desvantagens dessa abordagem;
+    - Criação de uma classe de testes JUnit usando o Netbeans;
+    - Explicação sobre a anotation @Test e criaçao do primeiro teste usando o método assertEQuals;
+    - Execução do teste e apresentação dos resultados;
+    - Alterar o teste para que ele falhe propositalmente;
+    - Apresentação dos outros métodos assert - apenas explicação;
+    - Criação de demais testes para classe BonusService e classe ReajusteService;
+    - Execução constante dos testes;
+    - Discussões:
+      - benefícios do uso de testes automatizados
+      - necessidade de qualidade nos testes;
+      - ganho de produtividade a longo prazo;
+      - quais métodos testar;
+  
