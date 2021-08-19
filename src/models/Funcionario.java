@@ -27,4 +27,13 @@ public class Funcionario {
         return salario;
     }
 
+    public void reajustarSalario(double percentual) {
+        double aumento = calcularValorDoAumento(percentual);
+        this.salario += aumento;
+    }
+
+    private double calcularValorDoAumento(double percentual) {
+        return salario * percentual;
+    }
+
 }

@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="hissa-G3-3590" name="BonusServiceTest" skipped="0" tests="3" time="0.064" timestamp="2021-08-19T19:52:02">
+<testsuite errors="0" failures="0" hostname="hissa-G3-3590" name="AllTests" skipped="0" tests="6" time="0.054" timestamp="2021-08-19T19:52:19">
   <properties>
     <property name="netbeans.autoupdate.country" value="US" />
     <property name="javac.test.classpath" value=":build/classes::/home/hissa/Downloads/junit-4.13.2.jar:/home/hissa/Downloads/hamcrest-core-1.3.jar" />
     <property name="javac.test.sourcepath" value="/home/hissa/NetBeansProjects/AulaTestesUnitarios/build/empty" />
+    <property name="javac.includes" value="AllTests.java" />
     <property name="ant.core.lib" value="/usr/share/netbeans/10.0/java/ant/lib/ant.jar" />
     <property name="javadoc.windowtitle" value="" />
     <property name="user.dir" value="/home/hissa/NetBeansProjects/AulaTestesUnitarios" />
@@ -28,6 +29,7 @@
     <property name="libs.javac-api.javadoc" value="" />
     <property name="os.name" value="Linux" />
     <property name="ant.file.AulaTestesUnitarios" value="/home/hissa/NetBeansProjects/AulaTestesUnitarios/build.xml" />
+    <property name="test.class" value="AllTests" />
     <property name="jdk.gtk.version" value="2.2" />
     <property name="ap.proc.none.internal" value="" />
     <property name="ant.file.type.AulaTestesUnitarios-impl" value="file" />
@@ -38,7 +40,7 @@
     <property name="libs.eclipselink.src" value="" />
     <property name="user.name" value="hissa" />
     <property name="copylibs.rebase" value="true" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner BonusServiceTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/hissa/NetBeansProjects/AulaTestesUnitarios/build/test/results/TEST-BonusServiceTest.xml crashfile=/home/hissa/NetBeansProjects/AulaTestesUnitarios/build/junitvmwatcher7397747281013647142.properties propsfile=/home/hissa/NetBeansProjects/AulaTestesUnitarios/build/junit8999753912520055244.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner AllTests skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/hissa/NetBeansProjects/AulaTestesUnitarios/build/test/results/TEST-AllTests.xml crashfile=/home/hissa/NetBeansProjects/AulaTestesUnitarios/build/junitvmwatcher3149448558986283582.properties propsfile=/home/hissa/NetBeansProjects/AulaTestesUnitarios/build/junit7150139927240601991.properties" />
     <property name="build.classes.dir" value="build/classes" />
     <property name="build.sysclasspath" value="ignore" />
     <property name="manifest.encoding" value="UTF-8" />
@@ -60,6 +62,7 @@
     <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/endorsed" />
     <property name="user.language.format" value="pt" />
     <property name="libs.junit_5.src" value="" />
+    <property name="test.includes" value="AllTests.java" />
     <property name="netbeans.dynamic.classpath" value="/usr/share/netbeans/10.0/platform/core/org-openide-filesystems-compat8.jar:/usr/share/netbeans/10.0/platform/core/core-base.jar:/usr/share/netbeans/10.0/platform/core/org-openide-filesystems.jar:/usr/share/netbeans/10.0/platform/core/core.jar:/usr/share/netbeans/10.0/platform/core/org-netbeans-libs-asm.jar:/usr/share/netbeans/10.0/platform/core/asm-all-5.0.1.jar:/usr/share/netbeans/10.0/nb/core/org-netbeans-upgrader.jar:/usr/share/netbeans/10.0/nb/core/locale/core_nb.jar" />
     <property name="java.vm.specification.version" value="1.8" />
     <property name="plugin.manager.check.updates" value="false" />
@@ -73,6 +76,7 @@
     <property name="javac.debug" value="true" />
     <property name="javadoc.splitindex" value="true" />
     <property name="file.separator" value="/" />
+    <property name="javac.includesfile.binary" value="/home/hissa/NetBeansProjects/AulaTestesUnitarios/null324674661" />
     <property name="libs.junit_4.maven-pom" value="" />
     <property name="mkdist.disabled" value="false" />
     <property name="javac.test.processorpath" value=":build/classes::/home/hissa/Downloads/junit-4.13.2.jar:/home/hissa/Downloads/hamcrest-core-1.3.jar" />
@@ -81,6 +85,7 @@
     <property name="build.generated.sources.dir" value="build/generated-sources" />
     <property name="libs.eclipselinkmodelgen.classpath" value="/usr/share/netbeans/10.0/java/modules/ext/eclipselink/org.eclipse.persistence.jpa.modelgen.processor-2.5.2.jar" />
     <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="javac.includes.binary" value="/home/hissa/NetBeansProjects/AulaTestesUnitarios/build/test/classes/AllTests.class" />
     <property name="ant.home" value="/usr/share/netbeans/10.0/java/ant" />
     <property name="libs.junit_4.src" value="" />
     <property name="libs.testng.classpath" value="/usr/share/netbeans/10.0/platform/modules/ext/testng-6.8.1-dist.jar" />
@@ -110,7 +115,7 @@
     <property name="test.binaryincludes" value="&lt;nothing&gt;" />
     <property name="manifest.available" value="true" />
     <property name="run.test.classpath" value=":build/classes::/home/hissa/Downloads/junit-4.13.2.jar:/home/hissa/Downloads/hamcrest-core-1.3.jar:build/test/classes" />
-    <property name="ant.project.invoked-targets" value="test" />
+    <property name="ant.project.invoked-targets" value="test-single" />
     <property name="test.binaryexcludes" value="" />
     <property name="sun.java2d.dpiaware" value="true" />
     <property name="https.nonProxyHosts" value="localhost|127.0.0.1|hissa-G3-3590" />
@@ -240,7 +245,6 @@
     <property name="javac.test.compilerargs" value="" />
     <property name="annotation.processing.enabled" value="true" />
     <property name="libs.jpa20-persistence.src" value="" />
-    <property name="ignore.failing.tests" value="true" />
     <property name="dist.dir" value="dist" />
     <property name="file.reference.junit-4.13.2.jar" value="/home/hissa/Downloads/junit-4.13.2.jar" />
     <property name="jlink.launcher" value="true" />
@@ -278,7 +282,7 @@
     <property name="jlink.launcher.name" value="AulaTestesUnitarios" />
     <property name="sun.desktop" value="gnome" />
     <property name="run.test.modulepath" value="" />
-    <property name="nb.internal.action.name" value="test" />
+    <property name="nb.internal.action.name" value="run.single" />
     <property name="libs.JAXB-ENDORSED.classpath" value="/usr/share/netbeans/10.0/ide/modules/ext/jaxb/api/jaxb-api.jar" />
     <property name="libs.eclipselink.classpath" value="/usr/share/netbeans/10.0/java/modules/ext/eclipselink/org.eclipse.persistence.core-2.5.2.jar:/usr/share/netbeans/10.0/java/modules/ext/eclipselink/org.eclipse.persistence.asm-2.5.2.jar:/usr/share/netbeans/10.0/java/modules/ext/eclipselink/org.eclipse.persistence.antlr-2.5.2.jar:/usr/share/netbeans/10.0/java/modules/ext/eclipselink/org.eclipse.persistence.jpa-2.5.2.jar:/usr/share/netbeans/10.0/java/modules/ext/eclipselink/org.eclipse.persistence.jpa.jpql-2.5.2.jar:/usr/share/netbeans/10.0/java/modules/ext/eclipselink/javax.persistence-2.1.0.jar" />
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment" />
@@ -305,9 +309,12 @@
     <property name="platform.active" value="JDK_1.8" />
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit" />
   </properties>
-  <testcase classname="BonusServiceTest" name="bonusDeveriaSer10PorCentoDoSalario" time="0.014" />
-  <testcase classname="BonusServiceTest" name="bonusDeveriaSerZeroParaFuncionarioComSalarioMuitoAlto" time="0.0" />
-  <testcase classname="BonusServiceTest" name="bonusDeveriaSerDezPorCentoParaSalarioDeExatamente10000" time="0.001" />
+  <testcase classname="BonusServiceTest" name="bonusDeveriaSer10PorCentoDoSalario" time="0.012" />
+  <testcase classname="BonusServiceTest" name="bonusDeveriaSerZeroParaFuncionarioComSalarioMuitoAlto" time="0.001" />
+  <testcase classname="BonusServiceTest" name="bonusDeveriaSerDezPorCentoParaSalarioDeExatamente10000" time="0.0" />
+  <testcase classname="ReajusteServiceTst" name="reajusteDeveriaSerDeQuinzePorcentoQuandoDesempenhoForBom" time="0.0" />
+  <testcase classname="ReajusteServiceTst" name="reajusteDeveriaSerDeVintePorcentoQuandoDesempenhoForOtimo" time="0.001" />
+  <testcase classname="ReajusteServiceTst" name="reajusteDeveriaSerDeTresPorcentoQuandoDesempenhoForADesejar" time="0.0" />
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
